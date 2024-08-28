@@ -1,0 +1,109 @@
+/* تأكد من عدم وجود هوامش على الصفحة وضبط ارتفاعها */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* تنسيق محتوى اللعبة */
+.game-container {
+    text-align: center;
+}
+
+/* تنسيق عنوان اللعبة */
+#gameTitle {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* تنسيق زر البدء */
+#startButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* تأثيرات على زر البدء عند التفاعل */
+#startButton:hover {
+    background-color: #555;
+}
+
+/* تنسيق الصفحة بعد التغيير */
+.page-yellow {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الكرات */
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* تنسيق حقل الإدخال */
+.input-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userInput {
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #333;
+    width: 50px;
+}
+
+#checkButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* تنسيق الرسائل */
+#resultMessage {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.true-message {
+    color: green;
+}
+
+.false-message {
+    color: red;
+}
