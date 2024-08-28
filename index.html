@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOLO game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 id="gameTitle">LOLO game</h1>
+        <button id="startButton">Start Game</button>
+    </div>
+
+    <div class="input-container" id="inputContainer" style="display: none;">
+        <label for="userInput">Enter the previous letters:</label>
+        <div>
+            <span>Enter </span>
+            <input type="text" id="userInput" maxlength="1">
+        </div>
+        <button id="checkButton">Check</button>
+        <p id="resultMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
